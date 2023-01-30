@@ -1,0 +1,22 @@
+.videoWrapper {
+    img {
+        width: 100%;
+    }
+
+}
+
+.textContent {
+    display: flex;
+    font-family: inherit;
+
+    &>p {
+        width: 45%;
+        color: var(--SecondaryColor);
+
+        &:first-child {
+            margin-right: 20px;
+        }
+    }
+
+
+}

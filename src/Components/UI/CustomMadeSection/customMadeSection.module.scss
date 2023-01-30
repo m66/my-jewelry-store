@@ -1,0 +1,36 @@
+.customMadeSection {
+    background-image: url(https://custom-made.axiomthemes.com/wp-content/uploads/2016/10/image-1.jpg?id=922) !important;
+
+    h2, p {
+        color: var(--PrimaryTextColor) !important;
+    }
+    
+    .imgsWrapper {
+        display: flex;
+        gap: 40px;
+        .img1, .img2 {
+            img {
+                height: 200px;
+            }
+        }
+
+        .textContent {
+            width: 200px;
+            padding: 20px 10px;
+            color: var(--PrimaryTextColor);
+            background-color: #000;
+            text-align: center;
+
+            .caption {
+                margin-bottom: 10px;
+                font-size: 15px;
+                font-weight: 700;
+            }
+
+            .container {
+                font-size: 14px;
+                color: var(--SecondaryTextColor);
+            }
+        }
+    }
+}

@@ -1,0 +1,107 @@
+.watchesSection {
+    background-image: url('https://custom-made.axiomthemes.com/wp-content/uploads/2016/10/image-2.jpg?id=964');
+    // object-fit: 50px;
+
+    .watchesSectionWrapper {
+        display: flex;
+        flex-direction: column;
+
+        .productWrapper1,
+        .productWrapper2 {
+            display: flex;
+
+            img {
+                width: 225px;
+            }
+
+            .contentWrapper {
+
+                h2 {
+                    margin-bottom: 15px;
+                    font-size: 36px;
+                    line-height: 36px;
+                    color: #2a2a2a;
+                    font-weight: 800;
+                    padding: 0;
+                    border-radius: 0;
+                    background: 0 0;
+                    z-index: 2 !important;
+                    display: block;
+                    font-family: Crimson Text;
+                    text-transform: uppercase;
+                    position: relative;
+
+                    &::before {
+                        content: "";
+                        width: 50px;
+                        height: 3px;
+                        background-color: var(--PrimaryColor);
+                        position: absolute;
+                        top: 20px;
+                    }
+                }
+
+                p {
+                    font-size: 12px;
+                    line-height: 20px;
+                    color: #7a7a7a;
+                    font-weight: 600;
+                    display: block;
+                    text-align: left;
+                    clear: both;
+                    margin: 0;
+                    padding: 0;
+                    border-radius: 0;
+                    background: 0 0;
+                    // width: auto;
+                    // top: 32%;
+                    left: 110%;
+                    z-index: 2 !important;
+                    font-family: Lato;
+                    text-transform: uppercase;
+                }
+            }
+        }
+
+        .productWrapper1 {
+            margin-bottom: 25px;
+
+            .contentWrapper {
+                margin: 35px 0 0 30px;
+
+                h2::before {
+                    left: -65px;
+                }
+            }
+        }
+
+        .productWrapper2 {
+            .contentWrapper {
+                text-align: right;
+                margin: 35px 30px 0 0;
+
+                h2::before {
+                    right: -65px;
+                }
+            }
+        }
+    }
+
+    .textContent {
+        color: var(--SecondaryTextColor);
+    }
+
+    .linkWrapper {
+        margin-top: 25px;
+
+        a {
+            text-decoration: none;
+            color: var(--ActiveHoverColor);
+            font-size: 14px;
+        
+            &:hover {
+                color: var(--PrimaryColor);
+            }
+        }
+    }
+}

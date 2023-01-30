@@ -1,0 +1,68 @@
+.withSlidersSection {
+    height: 100vh;
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+
+    &>div {
+        width: 33%;
+    }
+
+    .productDesc {
+        text-align: center;
+
+        h3 {
+            color: var(--PrimaryColor);
+            font-size: 2.66rem;
+            font-weight: 700;
+            font-style: normal;
+            line-height: 1.25em;
+        }
+
+        p {
+            margin-bottom: 20px;
+            color: var(--SecondaryTextColor);
+            text-align: center;
+            font-size: 14px;
+        }
+
+        a {
+            padding: 5px 15px;
+            font-size: 10px;
+            text-decoration: none;
+            color: var(--PrimaryTextColor);
+            border: 1px solid var(--ActiveHoverColor);
+            background-color: var(--ActiveHoverColor);
+        }
+    }
+
+    .slider {
+        .imgsWrapper {
+            width: 100%;
+            display: flex;
+            flex-flow: row wrap;
+            img {
+                width: 50%;
+                height: 220px;
+                object-fit: cover;
+            }
+        }
+
+        .arrowsWrapper {
+            margin-top: 25px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 40px;
+
+            svg {
+                font-size: 20px;
+                cursor: pointer;
+                
+                &:hover {
+                    color: var(--ActiveHoverColor);
+                }
+            }
+        }
+    }
+}

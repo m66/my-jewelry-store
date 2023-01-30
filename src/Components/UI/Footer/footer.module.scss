@@ -1,0 +1,61 @@
+.footer {
+    overflow: hidden;
+    text-align: center;
+    color: var(--PrimaryTextColor);
+    background-color: var(--SecondaryBgColor);
+
+    .widgetArea {
+        padding: 7.55em 0 7.3em;
+        background-color: var(--PrimaryColor);
+
+        .widgetAreaContent {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+
+            .locationDataWrapper {
+                .locationLogoWrapper {
+                    .locIcon svg{
+                        height: 22px;
+                    }
+                    &>div {
+                        margin-bottom: 20px;
+                    }
+                    
+                }
+                
+                .locationBody {
+                    color: var(--SecondaryColor);
+                    font-size: 12px;
+                    
+                    &>p {
+                        margin-bottom: 8px;
+                    }
+                }
+            }
+
+            .logoWrapper {
+                width: auto;
+                img {
+                    margin-bottom: 20px;
+                }
+                p {
+                    margin-bottom: 8px;
+                    color: var(--SecondaryColor);
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+
+    .copyrightWrap {
+        padding: 3.4em 0;
+        font-size: .88em;
+        font-style: italic;
+
+        span {
+            color: var(--SecondaryColor);
+        }
+    }
+}

@@ -1,0 +1,24 @@
+* {
+    font-family: Roboto, system-ui, Tahoma, sans-serif !important;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 2px;
+    user-select: none;
+}
+
+:root {
+    --PrimaryColor: #222222;
+    --SecondaryColor: #919191;
+    // --TSbgColor: #323031;
+    --SecondaryBgColor: #181818;
+    --PrimaryTextColor: #fff;
+    --SecondaryTextColor: #8E8E8E;
+    --DropdownBgColor: #7a7a7a;
+    --ActiveHoverColor: #dd4026;
+    --LightGrayColor: #F7F8FC;
+    // --TSsecondaryTextColor: #B8B8B8;
+    // --TSErrorMessageColor: #ff00006e;
+    // --TStableBoderColor: #B3B3B3;
+    // --TSmodalColor: #fff;
+}

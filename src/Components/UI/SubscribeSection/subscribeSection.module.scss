@@ -1,0 +1,66 @@
+
+.subscribeSection {
+    // height: 110vh;
+    padding: 150px 235px;
+    background-image: url('https://custom-made.axiomthemes.com/wp-content/uploads/2016/10/promo-2.jpg?id=724');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .contetWrapper {
+        width: 450px;
+        h1 {
+            font-style: italic;
+            font-size: 40px;
+            color: var(--PrimaryTextColor);
+        }
+
+        p {
+            margin: 25px 0 45px;
+            font-size: 18px;
+            color: var(--SecondaryTextColor);
+            line-height: 24px;
+            letter-spacing: normal;
+        }
+
+        a {
+            padding: 14px 30px;
+            font-size: 14px;
+            font-weight: 700;
+            text-decoration: none;
+            color: var(--PrimaryTextColor);
+            background-color: var(--ActiveHoverColor);
+
+        }
+    }
+
+    .subscibeFormWrapper {
+        
+        form {
+            margin-top: 220px;
+            display: flex;
+            align-items: center;
+        }
+
+        input {
+            width: 400px;
+            margin-right: 10px;
+            padding: 8px 10px;
+            font-size: 12px;
+            font-style: italic;
+            letter-spacing: normal;
+            outline: none;
+            color: var(--PrimaryColor);
+            background-color: transparent;
+            border: 2px solid var(--PrimaryColor);
+        }
+
+        button {
+            padding: 10px 40px;
+            font-size: 10px;
+            color: var(--PrimaryTextColor);
+            background-color: var(--PrimaryColor);
+            border: 1px solid var(--PrimaryColor);
+        }
+    }
+}
+
